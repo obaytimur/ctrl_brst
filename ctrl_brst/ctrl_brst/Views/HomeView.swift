@@ -11,10 +11,14 @@ import SwiftUI
 struct HomeView: View {
     @Environment(\.modelContext) var modelContext
     @Query var examinations: [Examination]
+    @State var user: User = User(mensturationDay: Date.now)
     
     var body: some View {
         NavigationStack{
-            Text("Home View")
+            VStack{
+                MensturationHScrollView(dates: user.ovulationDays)
+                Spacer()
+            }
                 .navigationTitle("Hello, Cansu")
         }
     }

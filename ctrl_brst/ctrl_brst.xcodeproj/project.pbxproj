@@ -11,6 +11,8 @@
 		EE0210482BAEF5B800BF0A83 /* StyleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0210472BAEF5B800BF0A83 /* StyleExtensions.swift */; };
 		EE02104C2BAEF73C00BF0A83 /* Gordita Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE02104A2BAEF73C00BF0A83 /* Gordita Medium.otf */; };
 		EE02104D2BAEF73C00BF0A83 /* Gordita Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */; };
+		EE0210512BAF0EE000BF0A83 /* MenstruatinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0210502BAF0EE000BF0A83 /* MenstruatinCardView.swift */; };
+		EE0210532BAF14B000BF0A83 /* MensturationHScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0210522BAF14B000BF0A83 /* MensturationHScrollView.swift */; };
 		EE76AEB22BAEE519001EA16B /* ctrl_brstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEB12BAEE519001EA16B /* ctrl_brstApp.swift */; };
 		EE76AEB62BAEE51A001EA16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76AEB52BAEE51A001EA16B /* Assets.xcassets */; };
 		EE76AEB92BAEE51A001EA16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76AEB82BAEE51A001EA16B /* Preview Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		EE02104A2BAEF73C00BF0A83 /* Gordita Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Medium.otf"; sourceTree = "<group>"; };
 		EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Regular.otf"; sourceTree = "<group>"; };
 		EE02104E2BAEF74900BF0A83 /* ctrl-brst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ctrl-brst-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE0210502BAF0EE000BF0A83 /* MenstruatinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenstruatinCardView.swift; sourceTree = "<group>"; };
+		EE0210522BAF14B000BF0A83 /* MensturationHScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensturationHScrollView.swift; sourceTree = "<group>"; };
 		EE76AEAE2BAEE519001EA16B /* ctrl_brst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ctrl_brst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE76AEB12BAEE519001EA16B /* ctrl_brstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ctrl_brstApp.swift; sourceTree = "<group>"; };
 		EE76AEB52BAEE51A001EA16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +68,15 @@
 				EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EE02104F2BAF0EAE00BF0A83 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE0210502BAF0EE000BF0A83 /* MenstruatinCardView.swift */,
+				EE0210522BAF14B000BF0A83 /* MensturationHScrollView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		EE76AEA52BAEE519001EA16B = {
@@ -111,6 +124,7 @@
 			children = (
 				EE76AECB2BAEEF85001EA16B /* ContentView.swift */,
 				EE76AEC72BAEEE4A001EA16B /* HomeView.swift */,
+				EE02104F2BAF0EAE00BF0A83 /* Home */,
 				EE76AEC92BAEEE52001EA16B /* ExaminationsView.swift */,
 				EE76AEC22BAEE75B001EA16B /* Kontrol */,
 				EE0210442BAEF3C800BF0A83 /* TabBar.swift */,
@@ -213,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0210512BAF0EE000BF0A83 /* MenstruatinCardView.swift in Sources */,
 				EE76AEC42BAEE8C8001EA16B /* Modal.swift in Sources */,
 				EE0210482BAEF5B800BF0A83 /* StyleExtensions.swift in Sources */,
 				EE76AECA2BAEEE52001EA16B /* ExaminationsView.swift in Sources */,
@@ -221,6 +236,7 @@
 				EE76AEC82BAEEE4A001EA16B /* HomeView.swift in Sources */,
 				EE76AEC62BAEE8CF001EA16B /* Constants.swift in Sources */,
 				EE0210452BAEF3C800BF0A83 /* TabBar.swift in Sources */,
+				EE0210532BAF14B000BF0A83 /* MensturationHScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

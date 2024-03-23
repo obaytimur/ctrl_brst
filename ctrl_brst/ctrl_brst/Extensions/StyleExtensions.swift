@@ -20,6 +20,7 @@ extension Color {
 extension Text {
     func regularText() -> some View {
         self.font(.custom("Gordita Regular", size: 12))
+            .foregroundStyle(Color(hex: ColorCodes.supportingLightGrey))
     }
     
     func mediumText() -> some View {
