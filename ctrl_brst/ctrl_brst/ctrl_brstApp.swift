@@ -5,6 +5,7 @@
 //  Created by Oğulcan Baytimur on 23/03/2024.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct ctrl_brstApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Examination.self)
     }
 }

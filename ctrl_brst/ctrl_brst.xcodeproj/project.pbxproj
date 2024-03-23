@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0210452BAEF3C800BF0A83 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0210442BAEF3C800BF0A83 /* TabBar.swift */; };
+		EE0210482BAEF5B800BF0A83 /* StyleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0210472BAEF5B800BF0A83 /* StyleExtensions.swift */; };
+		EE02104C2BAEF73C00BF0A83 /* Gordita Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE02104A2BAEF73C00BF0A83 /* Gordita Medium.otf */; };
+		EE02104D2BAEF73C00BF0A83 /* Gordita Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */; };
 		EE76AEB22BAEE519001EA16B /* ctrl_brstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEB12BAEE519001EA16B /* ctrl_brstApp.swift */; };
-		EE76AEB42BAEE519001EA16B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEB32BAEE519001EA16B /* ContentView.swift */; };
 		EE76AEB62BAEE51A001EA16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76AEB52BAEE51A001EA16B /* Assets.xcassets */; };
 		EE76AEB92BAEE51A001EA16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76AEB82BAEE51A001EA16B /* Preview Assets.xcassets */; };
+		EE76AEC42BAEE8C8001EA16B /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEC32BAEE8C8001EA16B /* Modal.swift */; };
+		EE76AEC62BAEE8CF001EA16B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEC52BAEE8CF001EA16B /* Constants.swift */; };
+		EE76AEC82BAEEE4A001EA16B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEC72BAEEE4A001EA16B /* HomeView.swift */; };
+		EE76AECA2BAEEE52001EA16B /* ExaminationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AEC92BAEEE52001EA16B /* ExaminationsView.swift */; };
+		EE76AECC2BAEEF85001EA16B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76AECB2BAEEF85001EA16B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0210442BAEF3C800BF0A83 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EE0210472BAEF5B800BF0A83 /* StyleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleExtensions.swift; sourceTree = "<group>"; };
+		EE02104A2BAEF73C00BF0A83 /* Gordita Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Medium.otf"; sourceTree = "<group>"; };
+		EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Regular.otf"; sourceTree = "<group>"; };
+		EE02104E2BAEF74900BF0A83 /* ctrl-brst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ctrl-brst-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EE76AEAE2BAEE519001EA16B /* ctrl_brst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ctrl_brst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE76AEB12BAEE519001EA16B /* ctrl_brstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ctrl_brstApp.swift; sourceTree = "<group>"; };
-		EE76AEB32BAEE519001EA16B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE76AEB52BAEE51A001EA16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE76AEB82BAEE51A001EA16B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE76AEC32BAEE8C8001EA16B /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		EE76AEC52BAEE8CF001EA16B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE76AEC72BAEEE4A001EA16B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE76AEC92BAEEE52001EA16B /* ExaminationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminationsView.swift; sourceTree = "<group>"; };
+		EE76AECB2BAEEF85001EA16B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0210462BAEF59100BF0A83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE0210472BAEF5B800BF0A83 /* StyleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE0210492BAEF69500BF0A83 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE02104A2BAEF73C00BF0A83 /* Gordita Medium.otf */,
+				EE02104B2BAEF73C00BF0A83 /* Gordita Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		EE76AEA52BAEE519001EA16B = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +85,13 @@
 		EE76AEB02BAEE519001EA16B /* ctrl_brst */ = {
 			isa = PBXGroup;
 			children = (
+				EE02104E2BAEF74900BF0A83 /* ctrl-brst-Info.plist */,
 				EE76AEB12BAEE519001EA16B /* ctrl_brstApp.swift */,
-				EE76AEB32BAEE519001EA16B /* ContentView.swift */,
+				EE76AEC02BAEE745001EA16B /* Modal */,
+				EE76AEC12BAEE74B001EA16B /* ViewModal */,
+				EE76AEBF2BAEE73A001EA16B /* Views */,
+				EE0210462BAEF59100BF0A83 /* Extensions */,
+				EE0210492BAEF69500BF0A83 /* Fonts */,
 				EE76AEB52BAEE51A001EA16B /* Assets.xcassets */,
 				EE76AEB72BAEE51A001EA16B /* Preview Content */,
 			);
@@ -65,6 +104,41 @@
 				EE76AEB82BAEE51A001EA16B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE76AEBF2BAEE73A001EA16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE76AECB2BAEEF85001EA16B /* ContentView.swift */,
+				EE76AEC72BAEEE4A001EA16B /* HomeView.swift */,
+				EE76AEC92BAEEE52001EA16B /* ExaminationsView.swift */,
+				EE76AEC22BAEE75B001EA16B /* Kontrol */,
+				EE0210442BAEF3C800BF0A83 /* TabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE76AEC02BAEE745001EA16B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				EE76AEC32BAEE8C8001EA16B /* Modal.swift */,
+				EE76AEC52BAEE8CF001EA16B /* Constants.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		EE76AEC12BAEE74B001EA16B /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		EE76AEC22BAEE75B001EA16B /* Kontrol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kontrol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE02104C2BAEF73C00BF0A83 /* Gordita Medium.otf in Resources */,
 				EE76AEB92BAEE51A001EA16B /* Preview Assets.xcassets in Resources */,
+				EE02104D2BAEF73C00BF0A83 /* Gordita Regular.otf in Resources */,
 				EE76AEB62BAEE51A001EA16B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE76AEB42BAEE519001EA16B /* ContentView.swift in Sources */,
+				EE76AEC42BAEE8C8001EA16B /* Modal.swift in Sources */,
+				EE0210482BAEF5B800BF0A83 /* StyleExtensions.swift in Sources */,
+				EE76AECA2BAEEE52001EA16B /* ExaminationsView.swift in Sources */,
+				EE76AECC2BAEEF85001EA16B /* ContentView.swift in Sources */,
 				EE76AEB22BAEE519001EA16B /* ctrl_brstApp.swift in Sources */,
+				EE76AEC82BAEEE4A001EA16B /* HomeView.swift in Sources */,
+				EE76AEC62BAEE8CF001EA16B /* Constants.swift in Sources */,
+				EE0210452BAEF3C800BF0A83 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +357,7 @@
 				DEVELOPMENT_TEAM = S5ZBBP3832;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ctrl-brst-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +387,7 @@
 				DEVELOPMENT_TEAM = S5ZBBP3832;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ctrl-brst-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
