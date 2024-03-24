@@ -9,8 +9,6 @@ import SwiftData
 import SwiftUI
 
 struct HomeView: View {
-    @Environment(\.modelContext) var modelContext
-    @Query var examinations: [Examination]
     @State var user: User = User(mensturationDay: Date.now)
     
     init() {
@@ -30,7 +28,12 @@ struct HomeView: View {
                                 .font(.system(size: 20))
                                 .mediumText()
                             Spacer()
-                            NavigationLink("Mensturation", destination: MensturationGeneralView())
+                            NavigationLink {
+                                MensturationGeneralView()
+                            } label: {
+                                Text("Menstruation >")
+                                    .foregroundStyle(Color(hex: ColorCodes.mainPurple))
+                            }
                         }
                         .padding()
                         MensturationHScrollView(dates: user.generalDays)
@@ -38,8 +41,8 @@ struct HomeView: View {
                         
                         WarningView(text: "X days left until the examination", color: Color(hex: ColorCodes.mainPurple))
                             .padding()
-                        WarningView(text: "X days left until the examination", color: Color(hex: ColorCodes.period))
-                        WarningView(text: "X days left until the examination", color: Color(hex: ColorCodes.ovulation))
+                        WarningView(text: "X days left until the menstruation", color: Color(hex: ColorCodes.period))
+                        WarningView(text: "X days left until the ovulation", color: Color(hex: ColorCodes.ovulation))
                         
                         
                         Spacer()

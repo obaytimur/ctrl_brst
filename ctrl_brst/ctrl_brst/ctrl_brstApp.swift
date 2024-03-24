@@ -14,6 +14,5 @@ struct ctrl_brstApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Examination.self)
     }
 }

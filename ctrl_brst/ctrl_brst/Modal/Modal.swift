@@ -6,20 +6,25 @@
 //
 
 import Foundation
-import SwiftData
+import Observation
 
-
-@Model
-class Examination {
+struct Examination {
     var date: Date = Date.now
+    var isSwell: Bool = false
+    var isHard: Bool = false
+    var isChange: Bool = false
     
-    init(date: Date) {
+    init(date: Date, isSwell: Bool, isHard: Bool, isChange: Bool) {
         self.date = date
+        self.isSwell = isSwell
+        self.isHard = isHard
+        self.isChange = isChange
     }
 }
 
 @Observable
 class User {
+    var examinations: [Examination] = Array()
     var mensturationDay: Date = Date.now
     
     var ovulationDays: [Date] {

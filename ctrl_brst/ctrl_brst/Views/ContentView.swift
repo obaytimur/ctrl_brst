@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.modelContext) var modelContext
+    @State var user: User = User(mensturationDay: Date.now)
     @State private var selectedTab: AppScreen = .home
     @State private var path = [Examination]()
     var body: some View {
