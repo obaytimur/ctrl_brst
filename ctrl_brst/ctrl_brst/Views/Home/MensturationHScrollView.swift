@@ -11,12 +11,14 @@ struct MensturationHScrollView: View {
     var dates: [Date]
     var body: some View {
         ScrollView(.horizontal) {
-            HStack(spacing: 20) {
+            HStack(spacing: 12) {
                 ForEach(dates, id: \.self) { date in
                     MenstruatinCardView(date: date)
+                        .padding(.vertical)
                 }
             }
         }
+        .defaultScrollAnchor(.center)
     }
 }
 

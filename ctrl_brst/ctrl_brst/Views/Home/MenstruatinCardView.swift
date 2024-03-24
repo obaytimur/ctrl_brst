@@ -19,11 +19,12 @@ struct MenstruatinCardView: View {
                 .mediumText()
                 .padding(.top, 5)
         }
-        .frame(width: 76, height: 91)
-        .overlay(
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(Color(hex: ColorCodes.supporttingCream), lineWidth: 4)
-            )
+        .frame(width: 80, height: 95)
+        .background(.white)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .overlay( Calendar.current.isDateInToday(date) ? RoundedRectangle(cornerRadius: 16)
+            .stroke(Color(hex: ColorCodes.supporttingCream), lineWidth: 4) : RoundedRectangle(cornerRadius: 16).stroke(.white, lineWidth: 4)
+        )
         
     }
 }

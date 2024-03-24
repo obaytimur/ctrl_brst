@@ -30,6 +30,14 @@ class User {
         return dates
     }
     
+    var generalDays: [Date] {
+        var dates = [Date]()
+        for index in -28..<29 {
+            dates.append(Date.now.addingTimeInterval(86400*Double(index)))
+        }
+        return dates
+    }
+    
     init(mensturationDay: Date) {
         self.mensturationDay = mensturationDay
     }

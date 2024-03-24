@@ -20,4 +20,6 @@ enum ColorCodes {
     static let supportingGrey: UInt = 0x3C373D
     static let supportingLightGrey: UInt = 0xAAA7AA
     static let background: UInt = 0xF8F8F7
+    static let ovulation: UInt = 0x82B184
+    static let period: UInt = 0xD37A7F
 }
